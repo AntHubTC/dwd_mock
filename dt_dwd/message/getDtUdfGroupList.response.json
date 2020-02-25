@@ -1,0 +1,27 @@
+{
+  "data":{
+    "普通函数":[
+      {
+        "functionDesc":"根据 身份证号码，判断性别。男性返回 \"男\",女性返回\"女\"",
+        "functionId":"C29FC8AC02264F4ABFD67B2FDFBBE087",
+        "functionName":"getSex",
+        "functionType":"2",
+        "paramTypes":"varchar(18)",
+        "returnType":"char"
+      }
+    ],
+    "内置函数":[
+      {
+        "functionDesc":"返回表记录数",
+        "functionId":"E94C4A3940074E3EBC960F28A17ADF13",
+        "functionName":"count",
+        "functionType":"1",
+        "paramTypes":"none",
+        "returnType":"int"
+      }
+    ],
+    "聚合函数":[]
+  },
+  "msg":"交易成功",
+  "status":"000000"
+}

@@ -1,0 +1,26 @@
+{
+  "data":{
+    "pageIndex":0,
+    "header":[
+      "dbType",
+      "host",
+      "port",
+      "database",
+      "userName",
+      "password"
+    ],
+    "totalCount":1,
+    "body":[
+      [
+        "mysql",
+        "127.0.0.1",
+        3306,
+        "deepwatertransfer",
+        "root",
+        "****"
+      ]
+    ]
+  },
+  "msg":"交易成功",
+  "status":"000000"
+}

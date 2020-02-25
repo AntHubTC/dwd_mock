@@ -1,0 +1,73 @@
+{
+  "data": {
+    "nodeId": "579b93d0-8ef0-4c19-b678-7ae084970b63",
+    "shareStates": [
+      {
+        "name": "test1",
+        "type": "com.csii.deepWater.core.model.plugin.business.dataTransfer.config.ConfigTableInfo",
+        "tip": "Data context config info",
+        "isCollection": false,
+        "value": {
+          "fileDescTable": "file_desc",
+          "innerObject1": {
+            "key": "label1",
+            "value": "value1",
+            "innerObject2": {
+              "key": "label2",
+              "value": "value2",
+              "innerObject3": {
+                "key": "label3",
+                "value": "value3",
+                "fileDescTable": "file_desc",
+                "fieldDescTable": "dt_table_info",
+                "taskBaseTable": "task_base",
+                "taskDependTable": "task_depend",
+                "tableMapTable": "task_table_map"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "test2",
+        "type": "com.csii.deepWater.core.model.plugin.business.dataTransfer.config.ConfigTableInfo",
+        "tip": "Data context config info",
+        "isCollection": false,
+        "value": {
+          "fileDescTable": "file_desc"
+        }
+      },
+      {
+        "name": "configTable",
+        "type": "com.csii.deepWater.core.model.plugin.business.dataTransfer.config.ConfigTableInfo",
+        "tip": "Data context config info",
+        "isCollection": false,
+        "value": {
+          "fileDescTable": "file_desc",
+          "fieldDescTable": "dt_table_info",
+          "taskBaseTable": "task_base",
+          "taskDependTable": "task_depend",
+          "tableMapTable": "task_table_map",
+          "taskFieldsMapTalbe": "task_field_map",
+          "codeInfoTable": "dt_code_info",
+          "codeMappingTable": "dt_code_mapping",
+          "exceptionDetailTable": "exception_detail",
+          "middleMergeTable": "middle_task_merge",
+          "middleMergeCascadingTable": "middle_merge_cascading",
+          "dataVerifyTable": "data_verify",
+          "jobSummaryTable": "job_summary",
+          "udfTable": "udf",
+          "udpTable": "udp",
+          "taskRunTable": "task_run",
+          "indexRecreateTable": "index_recreate",
+          "slaveTable": "middle_slave",
+          "masterTable": "middle_master",
+          "verifyResultTable": "verify_result",
+          "systemTable": null
+        }
+      }
+    ]
+  },
+  "msg": "交易成功",
+  "status": "000000"
+}

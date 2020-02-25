@@ -1,0 +1,6 @@
+{
+    "header":["name","age","price"],
+    "total": 20,
+    "body": [["xiaomeng",25,"$12000"],["longchao",25,"$10000"],["pengzitao",24,"$8000"],["xiaomeng",25,"$12000"],
+    ["longchao",25,"$10000"],["pengzitao",24,"$8000"]]
+}

@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "tables": [
+        {
+          "fields": [
+            {
+              "fieldName": "PID",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "CUST_ID",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "ID_TYPE",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "NAME",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "SID",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "TELEPHONE",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "ADDRESS",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "SEX",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "CREATE_DATE",
+              "nullable": false,
+              "fieldType": "string"
+            }
+          ],
+          "tableName": "DF_2484a47e_6ab5_493e_80d6_fa9e17845787"
+        },
+        {
+          "fields": [
+            {
+              "fieldName": "database",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "dbType",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "host",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "password",
+              "nullable": false,
+              "fieldType": "string"
+            },
+            {
+              "fieldName": "charset",
+              "nullable": false,
+              "fieldType": "string"
+            }
+          ],
+          "tableName": "UIWENFWUIEF"
+        }
+      ],
+      "nodeId": "5c6b7c27-c949-4145-86e0-e4c207dbfe82"
+    },
+    {
+      "tables": [],
+      "nodeId": "b38633d4-7ae4-46db-ac2d-9042b2a48c6d"
+    }
+  ],
+  "msg": "交易成功",
+  "status": "000000"
+}

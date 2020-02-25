@@ -1,0 +1,30 @@
+[
+  {
+    "include": "../_platform/platform.json",
+    "response": {
+      "headers": {
+        "apiDescr": "from mock service"
+      }
+    }
+  },
+  {
+    "context": "/mock",
+    "include": "system.json",
+    "response": {
+      "headers": {
+        "apiDescr": "from mock service",
+        "Content-Type": "application/json;charset=UTF-8"
+      }
+    }
+  },
+  {
+    "context": "/mock",
+    "include": "dwd.json",
+    "response": {
+      "headers": {
+        "apiDescr": "from mock service",
+        "Content-Type": "application/json;charset=UTF-8"
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+	"data":{
+		"sys_id":"M201",
+		"user_code":"admin",
+		"user_id":"USER1",
+		"app_id":"APP1"
+	},
+	"msg":"登入成功",
+	"status":"000000"
+}

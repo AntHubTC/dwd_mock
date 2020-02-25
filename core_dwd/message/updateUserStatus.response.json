@@ -1,0 +1,13 @@
+{
+  "data":{
+    "id":"USER1",
+    "loginErrTimes":0,
+    "pwdExpired":false,
+    "status":"1",
+    "updatedBy":"USER1",
+    "updatedDate":1578326400000,
+    "version":1668
+  },
+  "msg":"交易成功",
+  "status":"000000"
+}

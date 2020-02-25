@@ -1,0 +1,60 @@
+{
+  "data":{
+    "endRow":3,
+    "firstPage":1,
+    "hasNextPage":false,
+    "hasPreviousPage":false,
+    "isFirstPage":true,
+    "isLastPage":true,
+    "lastPage":1,
+    "list":[
+      {
+        "finalRecordCount":504,
+        "finalTable":"cust",
+        "mergedRecordCounts":"",
+        "mergedTableMap":"",
+        "middleFiles":"cust_f_middle:0001:cust_sys1_f,0002:cust_sys2_f&cust_middle:0001:cust_sys1,0002:cust_sys2",
+        "middleFilesRecordCounts":"cust_f_middle:4,4&cust_middle:2,2",
+        "middleRecordCounts":"cust_f_middle:120,cust_middle:64",
+        "middleTables":"cust_middle,cust_f_middle",
+        "taskJson":"{\"tasks\": [{\n  \"uppers\": [{\n    \"uppers\": [\n      {\"taskId\": \"01100000A\"},\n      {\"taskId\": \"01100002A\"},\n      {\"taskId\": \"01100001A\"},\n      {\"taskId\": \"01100003A\"}\n    ],\n    \"taskId\": \"02100000A\"\n  }],\n  \"taskId\": \"04100000A\"\n}]}"
+      },
+      {
+        "finalRecordCount":6288,
+        "finalTable":"cust_f",
+        "mergedRecordCounts":"",
+        "mergedTableMap":"",
+        "middleFiles":"cust_f_middle:0001:cust_sys1_f,0002:cust_sys2_f&cust_middle:0001:cust_sys1,0002:cust_sys2",
+        "middleFilesRecordCounts":"cust_f_middle:4,4&cust_middle:2,2",
+        "middleRecordCounts":"cust_f_middle:120,cust_middle:64",
+        "middleTables":"cust_middle,cust_f_middle",
+        "taskJson":"{\"tasks\": [{\n  \"uppers\": [{\n    \"uppers\": [\n      {\"taskId\": \"01100000A\"},\n      {\"taskId\": \"01100002A\"},\n      {\"taskId\": \"01100001A\"},\n      {\"taskId\": \"01100003A\"}\n    ],\n    \"taskId\": \"02100000A\"\n  }],\n  \"taskId\": \"04100001A\"\n}]}"
+      },
+      {
+        "finalRecordCount":484,
+        "finalTable":"product_final",
+        "mergedRecordCounts":"",
+        "mergedTableMap":"",
+        "middleFiles":"product_middle:003:product",
+        "middleFilesRecordCounts":"product_middle:4",
+        "middleRecordCounts":"product_middle:60",
+        "middleTables":"product_middle",
+        "taskJson":"{\"tasks\": [{\n  \"uppers\": [{\"taskId\": \"01100004A\"}],\n  \"taskId\": \"04100002A\"\n}]}"
+      }
+    ],
+    "navigateFirstPage":1,
+    "navigateLastPage":1,
+    "navigatePages":8,
+    "navigatepageNums":[1],
+    "nextPage":0,
+    "pageNum":1,
+    "pageSize":10,
+    "pages":1,
+    "prePage":0,
+    "size":3,
+    "startRow":1,
+    "total":3
+  },
+  "msg":"交易成功",
+  "status":"000000"
+}

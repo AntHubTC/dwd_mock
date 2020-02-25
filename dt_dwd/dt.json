@@ -1,0 +1,185 @@
+[
+  {
+    "description": "查询迁移系统",
+    "request": {
+      "uri": "/dtSystem/searchSystemByExample"
+    },
+    "response": {
+      "file": "./message/searchSystemByExample.response.json"
+    }
+  },
+  {
+    "description": "查询迁移文件信息配置",
+    "request": {
+      "uri": "/dtFileDesc/getDtFileDescBySysNo"
+    },
+    "response": {
+      "file": "./message/getDtFileDescBySysNo.response.json"
+    }
+  },
+  {
+    "description": "查询迁移函数",
+    "request": {
+      "uri": "/dtUdf/searchDtUdfByExample"
+    },
+    "response": {
+      "file": "./message/searchDtUdfByExample.response.json"
+    }
+  },
+  {
+    "description": "查询迁移参数",
+    "request": {
+      "uri": "/dtUdp/searchDtUdpByExample"
+    },
+    "response": {
+      "file": "./message/searchDtUdpByExample.response.json"
+    }
+  },
+  {
+    "description": "查询迁移表",
+    "request": {
+      "uri": "/dtTable/searchTableByExample"
+    },
+    "response": {
+      "file": "./message/searchTableByExample.response.json"
+    }
+  },
+  {
+    "description": "查询所有迁移系统",
+    "request": {
+      "uri": "/dtSystem/getAllDtSystem"
+    },
+    "response": {
+      "file": "./message/getAllDtSystem.response.json"
+    }
+  },
+  {
+    "description": "查询迁移表列",
+    "request": {
+      "uri": "/dtTable/searchTableColumnByExample"
+    },
+    "response": {
+      "file": "./message/searchTableColumnByExample.response.json"
+    }
+  },
+  {
+    "description": "查询表列代码",
+    "request": {
+      "uri": "/dtCode/searchCodeInfoByExample"
+    },
+    "response": {
+      "file": "./message/searchCodeInfoByExample.response.json"
+    }
+  },
+  {
+    "description": "查询迁移系统表列树",
+    "request": {
+      "uri": "/dtColumnCodeMapping/getDtSysTableColumnTree"
+    },
+    "response": {
+      "file": "./message/getDtSysTableColumnTree.response.json"
+    }
+  },
+  {
+    "description": "查询迁移系统表列树",
+    "request": {
+      "uri": "/dtColumnCodeMapping/getDtSysTableColumnTree",
+      "json_paths": {
+        "$.level": "0"
+      }
+    },
+    "response": {
+      "file": "./message/getDtSysTableColumnTree/0.response.json"
+    }
+  },
+  {
+    "description": "searchCodeInfoByExampleNoPage",
+    "request": {
+      "uri": "/dtCode/searchCodeInfoByExampleNoPage"
+    },
+    "response": {
+      "file": "./message/searchCodeInfoByExampleNoPage.response.json"
+    }
+  },
+  {
+    "description": "索引重建管理查询索引",
+    "request": {
+      "uri": "/dtIndexRecreate/searchIndexByExample"
+    },
+    "response": {
+      "file": "./message/searchIndexByExample.response.json"
+    }
+  },
+  {
+    "description": "查询表列",
+    "request": {
+      "uri": "/dtTable/searchTableColumnByExampleNoPage"
+    },
+    "response": {
+      "file": "./message/searchTableColumnByExampleNoPage.response.json"
+    }
+  },
+  {
+    "description": "查询所有任务配置",
+    "request": {
+      "uri": "/dtTask/searchTaskByExample"
+    },
+    "response": {
+      "file": "./message/searchTaskByExample.response.json"
+    }
+  },
+  {
+    "description": "getDtUdfGroupList",
+    "request": {
+      "uri": "/dtUdf/getDtUdfGroupList"
+    },
+    "response": {
+      "file": "./message/getDtUdfGroupList.response.json"
+    }
+  },
+  {
+    "description": "getAllUdpList",
+    "request": {
+      "uri": "/dtUdp/getAllUdpList"
+    },
+    "response": {
+      "file": "./message/getAllUdpList.response.json"
+    }
+  },
+  {
+    "description": "getTaskTableMapByTaskId",
+    "request": {
+      "uri": "/dtTask/getTaskTableMapByTaskId"
+    },
+    "response": {
+      "file": "./message/getTaskTableMapByTaskId.response.json"
+    }
+  },
+  {
+    "description": "/dtColumnCodeMapping/getDtSysTableColumnData",
+    "request": {
+      "uri": "/dtColumnCodeMapping/getDtSysTableColumnData"
+    },
+    "response": {
+      "file": "./message/getDtSysTableColumnData.response.json"
+    }
+  },
+  {
+    "description": "/dtTask/getTaskFieldMapByTaskId",
+    "request": {
+      "uri": "/dtTask/getTaskFieldMapByTaskId"
+    },
+    "response": {
+      "file": "./message/getTaskFieldMapByTaskId.response.json"
+    }
+  },
+  {
+    "description": "/dtSummary/searchSummaryByExample",
+    "request": {
+      "uri": "/dtSummary/searchSummaryByExample"
+    },
+    "response": {
+      "file": "./message/searchSummaryByExample.response.json"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "data":[
+    {
+      "codeDesc":"身份证标识用户",
+      "codeValue":"1",
+      "columnNameEng":"id_type",
+      "id":"C6D7B03FA1524D01B92CE84884FF9FBF",
+      "sysNo":"0001",
+      "tableNameEng":"cust_sys1"
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}

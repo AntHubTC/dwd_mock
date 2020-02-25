@@ -1,0 +1,36 @@
+{
+  "data":[
+    {
+      "hasChild":"N",
+      "iconId":"attribute",
+      "id":"556421FE17414EFFB65FE4A7BDDC3AAC",
+      "leaf":true,
+      "loadType":"HTML",
+      "menuTags":[],
+      "name":"参数管理",
+      "parentId":"37EB690221E148AD9AE8F2F26E74ED06",
+      "seqSort":31,
+      "sysNo":"M201",
+      "type":"MENU",
+      "url":"/home/sysParamManager",
+      "version":0
+    },
+    {
+      "hasChild":"N",
+      "iconId":"attribute",
+      "id":"1E48B3EC01AE4AED88B911EEE9F2C620",
+      "leaf":true,
+      "loadType":"HTML",
+      "menuTags":[],
+      "name":"数据源",
+      "parentId":"37EB690221E148AD9AE8F2F26E74ED06",
+      "seqSort":37,
+      "sysNo":"M201",
+      "type":"MENU",
+      "url":"/home/datasourceManager",
+      "version":0
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}

@@ -1,0 +1,20 @@
+{
+  "data":[
+    {
+      "hasChild":"N",
+      "iconId":"homepage",
+      "id":"A1",
+      "leaf":true,
+      "menuTags":[],
+      "name":"数据看板",
+      "parentId":"A",
+      "seqSort":2,
+      "sysNo":"M201",
+      "type":"MENU",
+      "url":"/home/databoard",
+      "version":1
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}

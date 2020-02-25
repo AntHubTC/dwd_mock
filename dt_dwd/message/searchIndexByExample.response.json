@@ -1,0 +1,26 @@
+{
+  "data":{
+    "endRow":0,
+    "firstPage":0,
+    "hasNextPage":false,
+    "hasPreviousPage":false,
+    "isFirstPage":false,
+    "isLastPage":true,
+    "lastPage":0,
+    "list":[],
+    "navigateFirstPage":0,
+    "navigateLastPage":0,
+    "navigatePages":8,
+    "navigatepageNums":[],
+    "nextPage":0,
+    "pageNum":0,
+    "pageSize":10,
+    "pages":0,
+    "prePage":0,
+    "size":0,
+    "startRow":0,
+    "total":0
+  },
+  "msg":"交易成功",
+  "status":"000000"
+}

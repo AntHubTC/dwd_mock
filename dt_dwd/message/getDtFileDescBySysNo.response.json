@@ -1,0 +1,14 @@
+{
+  "data":{
+    "extension":".txt",
+    "fieldSeparator":",",
+    "hdfsPath":"D:\\\\dataTransfer\\\\sys1",
+    "headTailSymbol":"'",
+    "id":"491263B6487D4E56B6FE0EC4A3E4232A",
+    "lineSeparator":"\\\\r\\\\n",
+    "localPath":"D:\\\\dataTransfer\\\\sys1",
+    "systemNo":"0001"
+  },
+  "msg":"交易成功",
+  "status":"000000"
+}

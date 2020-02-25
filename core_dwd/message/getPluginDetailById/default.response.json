@@ -1,0 +1,21 @@
+{
+  "data":{
+    "author":"rain",
+    "cateId":"32CEC7C615F841F5BB7742900F84ABF8",
+    "conf":"[\n    {\n        \"uiType\": \"textbox\",\n        \"uiTypeText\": \"文本框\",\n        \"name\": \"parentNodeIds\",\n        \"label\": \"父节点\",\n        \"toolTip\": \"\",\n        \"uiProperty\": {\n            \"minlength\": 0,\n            \"maxlength\": 5000,\n            \"placeholder\": \"请输入\",\n            \"disabled\": false,\n            \"icon\": \"\"\n        },\n        \"isDynamic\": true\n    },\n    {\n        \"uiType\": \"textbox\",\n        \"uiTypeText\": \"文本框\",\n        \"name\": \"taskTopologyShareName\",\n        \"label\": \"任务拓扑共享名\",\n        \"toolTip\": \"\",\n        \"uiProperty\": {\n            \"minlength\": 0,\n            \"maxlength\": 5000,\n            \"placeholder\": \"请输入\",\n            \"disabled\": false,\n            \"icon\": \"\"\n        }\n    },\n    {\n        \"uiType\": \"textbox\",\n        \"uiTypeText\": \"文本框\",\n        \"name\": \"outDomainName\",\n        \"label\": \"输出域名\",\n        \"toolTip\": \"\",\n        \"uiProperty\": {\n            \"minlength\": 0,\n            \"maxlength\": 5000,\n            \"placeholder\": \"请输入\",\n            \"disabled\": false,\n            \"icon\": \"\"\n        }\n    },\n    {\n        \"uiType\": \"textbox\",\n        \"uiTypeText\": \"文本框\",\n        \"name\": \"outTableName\",\n        \"label\": \"输出表名\",\n        \"toolTip\": \"\",\n        \"uiProperty\": {\n            \"minlength\": 0,\n            \"maxlength\": 5000,\n            \"placeholder\": \"请输入\",\n            \"disabled\": false,\n            \"icon\": \"\"\n        }\n    }\n]",
+    "createBy":"USER1",
+    "createDt":"20190716",
+    "delFlag":"0",
+    "enable":"1",
+    "icon":"",
+    "id":"8D888F21830D4CA5B44563DE46744FB9",
+    "mainClass":"com.csii.deepWater.core.model.plugin.business.dataTransfer.implement.JobSummaryPlugin",
+    "name":"迁移摘要",
+    "ptype":"0",
+    "updateBy":"USER1",
+    "updateDt":"20190813",
+    "version":"0.2"
+  },
+  "msg":"交易成功",
+  "status":"000000"
+}

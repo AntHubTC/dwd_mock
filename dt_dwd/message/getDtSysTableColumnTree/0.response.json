@@ -1,0 +1,16 @@
+{
+  "data":[
+    {
+      "sysNo":"0001",
+      "tableNameCns":"系统1客户从表",
+      "tableNameEng":"cust_sys1_f"
+    },
+    {
+      "sysNo":"0001",
+      "tableNameCns":"系统1客户表",
+      "tableNameEng":"cust_sys1"
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}

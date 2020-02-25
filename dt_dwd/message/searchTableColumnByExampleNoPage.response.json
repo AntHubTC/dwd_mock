@@ -1,0 +1,32 @@
+{
+  "data":[
+    {
+      "columnLong":50,
+      "columnNameCns":"主键id",
+      "columnNameEng":"pid",
+      "columnType":"varchar",
+      "id":"3ECCCA726F04481496E4F55CC3C77B83",
+      "nullFlag":"Y",
+      "piFldid":0,
+      "priFlag":"N",
+      "sysNo":"fnal",
+      "tableNameCns":"最终库客户从表",
+      "tableNameEng":"cust_f"
+    },
+    {
+      "columnLong":1024,
+      "columnNameCns":"客户描述",
+      "columnNameEng":"cust_desc",
+      "columnType":"varchar",
+      "id":"D34D41EA32854FACAF841EDE23CEC6FC",
+      "nullFlag":"Y",
+      "piFldid":1,
+      "priFlag":"N",
+      "sysNo":"fnal",
+      "tableNameCns":"最终库客户从表",
+      "tableNameEng":"cust_f"
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}

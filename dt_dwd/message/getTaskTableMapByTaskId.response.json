@@ -1,0 +1,12 @@
+{
+  "data":{
+    "filter":"",
+    "source":"0001:cust_sys1",
+    "sourceConn":"",
+    "target":"cust_middle",
+    "taskId":"01100000A",
+    "taskKey":"C12F9062BD4643BFA67CE676317C646C"
+  },
+  "msg":"交易成功",
+  "status":"000000"
+}

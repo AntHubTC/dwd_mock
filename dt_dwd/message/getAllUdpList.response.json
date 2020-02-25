@@ -1,0 +1,18 @@
+{
+  "data":[
+    {
+      "paramDesc":"返回当前日期",
+      "paramId":"7A83AB58219E49D0831FAFE654F8428A",
+      "paramName":"sysdate",
+      "paramType":"date"
+    },
+    {
+      "paramDesc":"返回去年年份",
+      "paramId":"714091041FD148FDAAF559B1D48BA508",
+      "paramName":"lastyear",
+      "paramType":"date"
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}

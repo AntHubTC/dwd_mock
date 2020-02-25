@@ -1,0 +1,36 @@
+{
+  "data":[
+    {
+      "hasChild":"N",
+      "iconId":"0",
+      "id":"3D880FE7A8CD41F98CDFDB9224437191",
+      "leaf":true,
+      "loadType":"HTML",
+      "menuTags":[],
+      "name":"迁移配置导入导出",
+      "parentId":"008B4B9D3E7F4947A9AABE861715D74C",
+      "seqSort":71,
+      "sysNo":"M201",
+      "type":"MENU",
+      "url":"/home/dtImportData",
+      "version":0
+    },
+    {
+      "hasChild":"N",
+      "iconId":"0",
+      "id":"94E7D52ADFCF41248C2516442B4338AA",
+      "leaf":true,
+      "loadType":"HTML",
+      "menuTags":[],
+      "name":"表元数据导入",
+      "parentId":"008B4B9D3E7F4947A9AABE861715D74C",
+      "seqSort":73,
+      "sysNo":"M201",
+      "type":"MENU",
+      "url":"/home/dtTableMetaImport",
+      "version":0
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}

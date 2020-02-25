@@ -1,0 +1,395 @@
+[
+  {
+    "description": "获取可视化数据",
+    "request": {
+      "uri": "/dwgplot/getVisualData",
+      "json_paths": {
+        "$.nodeId": "f047fd82-755c-4549-bd2d-04db79b75dca"
+      }
+    },
+    "response": {
+      "file": "./message/getVisualData/f047fd82-755c-4549-bd2d-04db79b75dca.response.json"
+    }
+  },
+  {
+    "description": "获取可视化数据",
+    "request": {
+      "uri": "/dwgplot/getVisualData",
+      "json_paths": {
+        "$.nodeId": "cd576394-9165-428c-b701-5dfc842477e1"
+      }
+    },
+    "response": {
+      "file": "./message/getVisualData/cd576394-9165-428c-b701-5dfc842477e1.response.json"
+    }
+  },
+  {
+    "description": "参数管理查询参数",
+    "request": {
+      "uri": "/sysParam/searchByExample"
+    },
+    "response": {
+      "file": "./message/sysParam.searchByExample.response.json"
+    }
+  },
+  {
+    "description": "数据源",
+    "request": {
+      "uri": "/dwDataSource/searchByExample"
+    },
+    "response": {
+      "file": "./message/dwDataSource.searchByExample.response.json"
+    }
+  },
+  {
+    "description": "查询所有拓扑图项目",
+    "request": {
+      "uri": "/dwproject/searchAllProject"
+    },
+    "response": {
+      "file": "./message/dwproject.searchAllProject.response.json"
+    }
+  },
+  {
+    "description": "通过拓扑图项目查询可视化拓扑图",
+    "request": {
+      "uri": "/dwgplot/searchGplotByExample",
+      "json_paths": {
+        "$.projectId": "0"
+      }
+    },
+    "response": {
+      "file": "./message/searchGplotByExample/0.response.json"
+    }
+  },
+  {
+    "description": "通过拓扑图项目查询拓扑图",
+    "request": {
+      "uri": "/dwgplot/searchGplotByExample"
+    },
+    "response": {
+      "file": "./message/searchGplotByExample.response.json"
+    }
+  },
+  {
+    "description": "获取所有的插件类别",
+    "request": {
+      "uri": "/dwplugin/category/getAllPluginCategoryTree"
+    },
+    "response": {
+      "file": "./message/getAllPluginCategoryTree.response.json"
+    }
+  },
+  {
+    "description": "获取可视化插件测试拓扑图内容",
+    "request": {
+      "uri": "/dwgplot/getGplotContentById",
+      "json_paths": {
+        "$.id": "446012E870CB4560A3B228E55D694265"
+      }
+    },
+    "response": {
+      "file": "./message/getGplotContentById/446012E870CB4560A3B228E55D694265.response.json"
+    }
+  },
+  {
+    "description": "获取拓扑图内容",
+    "request": {
+      "uri": "/dwgplot/getGplotContentById"
+    },
+    "response": {
+      "file": "./message/getGplotContentById/default.response.json"
+    }
+  },
+  {
+    "description": "获取拓扑图所有节点的状态",
+    "request": {
+      "uri": "/dwgplot/getGplotNodeStatusByIds"
+    },
+    "response": {
+      "file": "./message/getGplotNodeStatusByIds.response.json"
+    }
+  },
+  {
+    "description": "获取可视化插件列表",
+    "request": {
+      "uri": "/dwplugin/pluginInfo/getPluginByCategory",
+      "json_paths": {
+        "$.id": "4F46906C14E7416F9CDB1C60C92729B1"
+      }
+    },
+    "response": {
+      "file": "./message/getPluginByCategory/4F46906C14E7416F9CDB1C60C92729B1.response.json"
+    }
+  },
+  {
+    "description": "通过插件类别获取插件",
+    "request": {
+      "uri": "/dwplugin/pluginInfo/getPluginByCategory"
+    },
+    "response": {
+      "file": "./message/getPluginByCategory/default.response.json"
+    }
+  },
+  {
+    "description": "获取插件类别信息",
+    "request": {
+      "uri": "/dwplugin/category/getPluginCategory"
+    },
+    "response": {
+      "file": "./message/getPluginCategory/default.response.json"
+    }
+  },
+  {
+    "description": "获取节点schema",
+    "request": {
+      "uri": "/dwgplot/getNodeSchemasByIds"
+    },
+    "response": {
+      "file": "./message/getNodeSchemasByIds/default.response.json"
+    }
+  },
+  {
+    "description": "获取节点输出表",
+    "request": {
+      "uri": "/dwgplot/getNodeTablesByIds"
+    },
+    "response": {
+      "file": "./message/getNodeTablesByIds/default.response.json"
+    }
+  },
+  {
+    "description": "获取饼图可视化插件的详细配置",
+    "request": {
+      "uri": "/dwplugin/pluginInfo/getPluginDetailById",
+      "json_paths": {
+        "id": "B1085D85512A4F3796AA1E9E8950717B"
+      }
+    },
+    "response": {
+      "file": "./message/getPluginDetailById/B1085D85512A4F3796AA1E9E8950717B.response.json"
+    }
+  },
+  {
+    "description": "获取散点图可视化插件的详细配置",
+    "request": {
+      "uri": "/dwplugin/pluginInfo/getPluginDetailById",
+      "json_paths": {
+        "id": "B5CCABF78119495F80E58452D03554E3"
+      }
+    },
+    "response": {
+      "file": "./message/getPluginDetailById/B5CCABF78119495F80E58452D03554E3.response.json"
+    }
+  },
+  {
+    "description": "获取表格可视化插件的详细配置",
+    "request": {
+      "uri": "/dwplugin/pluginInfo/getPluginDetailById",
+      "json_paths": {
+        "id": "E584372B26364D64842D473FEE817461"
+      }
+    },
+    "response": {
+      "file": "./message/getPluginDetailById/E584372B26364D64842D473FEE817461.response.json"
+    }
+  },
+  {
+    "description": "获取节点输出表",
+    "request": {
+      "uri": "/dwplugin/pluginInfo/getPluginDetailById"
+    },
+    "response": {
+      "file": "./message/getPluginDetailById/default.response.json"
+    }
+  },
+  {
+    "description": "通过classId获取系统参数",
+    "request": {
+      "uri": "/sysParam/getByClassId",
+      "json_paths": {
+        "$.classId": "GPLOT_NODE_SYS_ARGUMENT"
+      }
+    },
+    "response": {
+      "file": "./message/sysParam.getByClassId/GPLOT_NODE_SYS_ARGUMENT.response.json"
+    }
+  },
+  {
+    "description": "保存拓扑图",
+    "request": {
+      "uri": "/dwgplot/saveGplotContent"
+    },
+    "response": {
+      "file": "./message/saveGplotContent.response.json"
+    }
+  },
+  {
+    "description": "查询可视化插件",
+    "request": {
+      "uri": "/dwplugin/pluginInfo/searchPluginInfoByExample",
+      "json_paths": {
+        "cateId": "4F46906C14E7416F9CDB1C60C92729B1"
+      }
+    },
+    "response": {
+      "file": "./message/searchPluginInfoByExample/4F46906C14E7416F9CDB1C60C92729B1.response.json"
+    }
+  },
+  {
+    "description": "通过插件库查询插件",
+    "request": {
+      "uri": "/dwplugin/pluginInfo/searchPluginInfoByExample"
+    },
+    "response": {
+      "file": "./message/searchPluginInfoByExample.response.json"
+    }
+  },
+  {
+    "description": "设计器保存插件配置",
+    "request": {
+      "uri": "/dwplugin/pluginInfo/modify"
+    },
+    "response": {
+      "file": "./message/pluginInfo.modify.response.json"
+    }
+  },
+  {
+    "description": "获取拓扑图节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode",
+      "json_paths": {
+        "$.nodeId": "2484a47e-6ab5-493e-80d6-fa9e17845787"
+      }
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/2484a47e-6ab5-493e-80d6-fa9e17845787.response.json"
+    }
+  },
+  {
+    "description": "获取雷达图节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode",
+      "json_paths": {
+        "$.nodeId": "5b7de195-ae19-4c1a-8ad2-092bc9f503a9"
+      }
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/5b7de195-ae19-4c1a-8ad2-092bc9f503a9.response.json"
+    }
+  },
+  {
+    "description": "获取散点图节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode",
+      "json_paths": {
+        "$.nodeId": "db82c8d1-5c1f-4ac5-a8db-3539d9cb5a29"
+      }
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/db82c8d1-5c1f-4ac5-a8db-3539d9cb5a29.response.json"
+    }
+  },
+  {
+    "description": "获取树状关系图节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode",
+      "json_paths": {
+        "$.nodeId": "2aa590b2-a57f-4cc3-91e4-040a6f999add"
+      }
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/2aa590b2-a57f-4cc3-91e4-040a6f999add.response.json"
+    }
+  },
+  {
+    "description": "获取饼状图节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode",
+      "json_paths": {
+        "$.nodeId": "354d1274-bed5-469e-a5ea-cb068315f3c0"
+      }
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/354d1274-bed5-469e-a5ea-cb068315f3c0.response.json"
+    }
+  },
+  {
+    "description": "获取折线柱状节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode",
+      "json_paths": {
+        "$.nodeId": "9bffbe50-d9ca-4214-9c73-bacb112c792b"
+      }
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/9bffbe50-d9ca-4214-9c73-bacb112c792b.response.json"
+    }
+  },
+  {
+    "description": "获取仪表盘节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode",
+      "json_paths": {
+        "$.nodeId": "9a84b780-5f80-49d6-8934-c82e5dc799b8"
+      }
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/9a84b780-5f80-49d6-8934-c82e5dc799b8.response.json"
+    }
+  },
+  {
+    "description": "获取热力图节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode",
+      "json_paths": {
+        "$.nodeId": "354d1274-bed5-469e-a5ea-cb068315f3c0"
+      }
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/354d1274-bed5-469e-a5ea-cb068315f3c0.response.json"
+    }
+  },
+  {
+    "description": "获取拓扑图节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode",
+      "json_paths": {
+        "$.tableIndex": "1"
+      }
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/tableIndex_1.response.json",
+      "latency":{
+        "duration": 2,
+        "unit": "second"
+      }
+    }
+  },
+  {
+    "description": "获取拓扑图节点的数据",
+    "request": {
+      "uri": "/dwgplot/getNodePageDataByNode"
+    },
+    "response": {
+      "file": "./message/getNodePageDataByNode/default.response.json",
+      "latency":{
+        "duration": 1,
+        "unit": "second"
+      }
+    }
+  },
+  {
+    "description": "获取节点共享状态数据",
+    "request": {
+      "uri": "/dwgplot/getNodeShareState"
+    },
+    "response": {
+      "file": "./message/getNodeShareState/default.response.json",
+      "latency":{
+        "duration": 1,
+        "unit": "second"
+      }
+    }
+  }
+]

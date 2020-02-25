@@ -1,0 +1,237 @@
+[
+  {
+    "description": "登录",
+    "request": {
+      "uri": "/sysLogin/login",
+      "json": {
+        "username": "admin",
+        "password": "123456"
+      }
+    },
+    "response": {
+      "file": "./message/login.response.json"
+    }
+  },
+  {
+    "description": "注销",
+    "request": {
+      "uri": "/sysLogin/logout"
+    },
+    "response": {
+      "file": "./message/logout.response.json"
+    }
+  },
+  {
+    "description": "获取用户的菜单",
+    "request": {
+      "uri": "/sysmenu/getUserMenus"
+    },
+    "response": {
+      "file": "./message/getUserMenus.response.json"
+    }
+  },
+  {
+    "description": "获取用户的菜单",
+    "request": {
+      "uri": "/sysmenu/getUserMenus"
+    },
+    "response": {
+      "file": "./message/getUserMenus.response.json"
+    }
+  },
+  {
+    "description": "获取机构树",
+    "request": {
+      "uri": "/sysorg/getAllOrgTree"
+    },
+    "response": {
+      "file": "./message/getAllOrgTree.response.json"
+    }
+  },
+  {
+    "description": "通过用户查询机构id",
+    "request": {
+      "uri": "/sysuser/searchUserByOrgId"
+    },
+    "response": {
+      "file": "./message/searchUserByOrgId.response.json"
+    }
+  },
+  {
+    "description": "更新用户状态",
+    "request": {
+      "uri": "/sysuser/updateUserStatus"
+    },
+    "response": {
+      "file": "./message/updateUserStatus.response.json"
+    }
+  },
+  {
+    "description": "重设密码",
+    "request": {
+      "uri": "/sysuser/resetPassword"
+    },
+    "response": {
+      "file": "./message/resetPassword.response.json"
+    }
+  },
+  {
+    "description": "获取所有角色",
+    "request": {
+      "uri": "/sysrole/getAllRoles"
+    },
+    "response": {
+      "file": "./message/getAllRoles.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getMenuTreeBySys"
+    },
+    "response": {
+      "file": "./message/getMenuTreeBySys.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getMenuTreeBySys"
+    },
+    "response": {
+      "file": "./message/getMenuTreeBySys.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "0"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/0.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "A"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/A.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "F"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/F.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "37EB690221E148AD9AE8F2F26E74ED06"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/37EB690221E148AD9AE8F2F26E74ED06.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "322B036B892B4B9B9A6D07F1AFAFC4DE"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/322B036B892B4B9B9A6D07F1AFAFC4DE.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "5A441E26B1C242A0A44D5F1D49589475"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/5A441E26B1C242A0A44D5F1D49589475.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "AE589DA469914F4081F6E859D21CFE06"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/AE589DA469914F4081F6E859D21CFE06.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "56350ACFBCE44137B8B2EEBDFE16A53E"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/56350ACFBCE44137B8B2EEBDFE16A53E.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "0C228D79FBB741B0B2C32327DB760468"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/0C228D79FBB741B0B2C32327DB760468.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "E9FE37240CA343EFB0D524879DB9D669"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/E9FE37240CA343EFB0D524879DB9D669.response.json"
+    }
+  },
+  {
+    "description": "获取菜单树",
+    "request": {
+      "uri": "/sysmenu/getChildren",
+      "json_paths": {
+        "$.id": "008B4B9D3E7F4947A9AABE861715D74C"
+      }
+    },
+    "response": {
+      "file": "./message/sysmenu.getChildren/008B4B9D3E7F4947A9AABE861715D74C.response.json"
+    }
+  }
+]

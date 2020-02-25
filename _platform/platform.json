@@ -1,0 +1,14 @@
+[
+  {
+  	"description": "mock notice!",
+    "request": {
+      "uri": "/"
+    },
+    "response": {
+      "text": "<br/><br/><br/><br/><br/><br/><br/><center><h2>mock服务正在运行--</h2></center>",
+      "headers" : {
+          "Content-Type":"text/html;charset=UTF-8"
+        }
+    }
+  }
+]

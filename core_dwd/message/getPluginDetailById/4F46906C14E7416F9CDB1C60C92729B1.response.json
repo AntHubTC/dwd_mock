@@ -1,0 +1,20 @@
+{
+	"data":{
+		"author":"xiaomeng",
+		"cateId":"4F46906C14E7416F9CDB1C60C92729B1",
+		"conf":"[\n    {\n        \"uiType\": \"textbox\",\n        \"uiTypeText\": \"文本框\",\n        \"name\": \"visualType\",\n        \"label\": \"可视化类型\",\n        \"toolTip\": \"\",\n        \"uiProperty\": {\n            \"minlength\": 0,\n            \"maxlength\": 5000,\n            \"placeholder\": \"请输入\",\n            \"disabled\": false,\n            \"icon\": \"\"\n        },\n        \"default\": \"radar\",\n        \"hidden\": true\n    },\n    {\n        \"uiType\": \"textbox\",\n        \"uiTypeText\": \"文本框\",\n        \"name\": \"title\",\n        \"label\": \"标题\",\n        \"toolTip\": \"\",\n        \"uiProperty\": {\n            \"minlength\": 0,\n            \"maxlength\": 5000,\n            \"placeholder\": \"请输入\",\n            \"disabled\": false,\n            \"icon\": \"\"\n        }\n    },\n    {\n        \"uiType\": \"switch\",\n        \"uiTypeText\": \"切换开关\",\n        \"name\": \"shape\",\n        \"label\": \"是否为圆\",\n        \"toolTip\": \"\",\n        \"uiProperty\": {\n            \"disabled\": false,\n            \"width\": 40,\n            \"active-text\": \"是\",\n            \"inactive-text\": \"否\",\n            \"active-color\": null,\n            \"inactive-color\": null\n        },\n        \"default\": \"false\"\n    },\n    {\n        \"uiType\": \"switch\",\n        \"uiTypeText\": \"切换开关\",\n        \"name\": \"showlabel\",\n        \"label\": \"显示提示信息\",\n        \"toolTip\": \"\",\n        \"uiProperty\": {\n            \"disabled\": false,\n            \"width\": 40,\n            \"active-text\": \"是\",\n            \"inactive-text\": \"否\",\n            \"active-color\": null,\n            \"inactive-color\": null\n        },\n        \"default\": \"true\"\n    },\n    {\n        \"uiType\": \"switch\",\n        \"uiTypeText\": \"切换开关\",\n        \"name\": \"showlengend\",\n        \"label\": \"消失图例\",\n        \"toolTip\": \"\",\n        \"uiProperty\": {\n            \"disabled\": false,\n            \"width\": 40,\n            \"active-text\": \"是\",\n            \"inactive-text\": \"否\",\n            \"active-color\": null,\n            \"inactive-color\": null\n        },\n        \"default\": \"true\"\n    }\n]",
+		"createBy":"USER1",
+		"createDt":"20200115",
+		"delFlag":"0",
+		"enable":"1",
+		"icon":"SNS",
+		"id":"65D04E548CB14F5C8FB3C9C6526A6FDD",
+		"name":"雷达图",
+		"ptype":"1",
+		"updateBy":"USER1",
+		"updateDt":"20200115",
+		"version":"0.1"
+	},
+	"msg":"交易成功",
+	"status":"000000"
+}

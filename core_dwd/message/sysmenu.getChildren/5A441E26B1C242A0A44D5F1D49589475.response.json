@@ -1,0 +1,36 @@
+{
+  "data":[
+    {
+      "hasChild":"N",
+      "iconId":"attribute",
+      "id":"87EC3DFD61944B0B83AE6431AB695355",
+      "leaf":true,
+      "loadType":"HTML",
+      "menuTags":[],
+      "name":"文件系统",
+      "parentId":"5A441E26B1C242A0A44D5F1D49589475",
+      "seqSort":51,
+      "sysNo":"M201",
+      "type":"MENU",
+      "url":"/home/osManager",
+      "version":0
+    },
+    {
+      "hasChild":"N",
+      "iconId":"gplot-manager",
+      "id":"1713E8D4B8A8410EB9B2CE5CF4F4E302",
+      "leaf":true,
+      "loadType":"HTML",
+      "menuTags":[],
+      "name":"互传系统",
+      "parentId":"5A441E26B1C242A0A44D5F1D49589475",
+      "seqSort":52,
+      "sysNo":"M201",
+      "type":"MENU",
+      "url":"/home/osTansferManager",
+      "version":0
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}

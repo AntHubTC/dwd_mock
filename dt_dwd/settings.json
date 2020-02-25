@@ -1,0 +1,31 @@
+[
+  {
+    "include": "../_platform/platform.json",
+    "response": {
+      "headers": {
+        "apiDescr": "from mock service"
+      }
+    }
+  },
+  {
+    "context": "/mock",
+    "file_root": "../core_dwd",
+    "include": "../core_dwd/system.json",
+    "response": {
+      "headers": {
+        "apiDescr": "from mock service",
+        "Content-Type": "application/json;charset=UTF-8"
+      }
+    }
+  },
+  {
+    "context": "/mock",
+    "include": "dt.json",
+    "response": {
+      "headers": {
+        "apiDescr": "from mock service",
+        "Content-Type": "application/json;charset=UTF-8"
+      }
+    }
+  }
+]

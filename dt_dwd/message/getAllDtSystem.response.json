@@ -1,0 +1,36 @@
+{
+  "data":[
+    {
+      "sysName":"sys1",
+      "sysNo":"0001",
+      "sysType":"0"
+    },
+    {
+      "sysName":"sys2",
+      "sysNo":"0002",
+      "sysType":"0"
+    },
+    {
+      "sysName":"mddl",
+      "sysNo":"mddl",
+      "sysType":"2"
+    },
+    {
+      "sysName":"fnal",
+      "sysNo":"fnal",
+      "sysType":"1"
+    },
+    {
+      "sysName":"交易系统",
+      "sysNo":"003",
+      "sysType":"0"
+    },
+    {
+      "sysName":"供应链系统",
+      "sysNo":"0005",
+      "sysType":"0"
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}

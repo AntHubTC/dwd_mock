@@ -1,0 +1,21 @@
+{
+  "data":[
+    {
+      "hasChild":"N",
+      "iconId":"plugin-manager",
+      "id":"DBB23998041D4D509A42E8F8ABEFEABB",
+      "leaf":true,
+      "loadType":"HTML",
+      "menuTags":[],
+      "name":"监控",
+      "parentId":"AE589DA469914F4081F6E859D21CFE06",
+      "seqSort":54,
+      "sysNo":"M201",
+      "type":"MENU",
+      "url":"/home/monitorIndex",
+      "version":0
+    }
+  ],
+  "msg":"交易成功",
+  "status":"000000"
+}
